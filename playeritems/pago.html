@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<head>
+    <title >Player Items</title>
+</head>
+
+<body>
+    <nav>
+        <ul class="menu">
+            <a href="inicio.html">INICIO</a>
+            <a href="index.html">CATALOGO</a>
+            <a href="nosotros.html">NOSOROS</a>
+            
+        </ul>
+    </nav> <br><br>
+
+    <section class="checked">
+        <h1>  Método de envío</h1><br>
+        <input type="checkbox" name="select[]"id="p2" value="Enviar">Envío Estandar</input>
+        <h4>$0,00</h4><br>
+        <input type="checkbox" name="select[]"id="p2" value="Enviar">Envío Express</input>
+        <h4>$59,00</h4><br><br>
+    
+        <h1> Forma de pago </h1><br>
+        <input type="checkbox" name="select[]" id="p2" value="Enviar">  <img src="imagenes/paypal.png" width="50px" height="50px"></input><br>
+        <input type="checkbox" name="select[]" id="p2" value="Enviar"><img src="imagenes/oxxo.jpg" width="50px" height="50px"></input><br>
+        <input type="checkbox" name="select[]" id="p2" value="Enviar"><img src="imagenes/credito.png" width="50px" height="50px"></input>
+    
+    </section>
+    
+    <section class="form-register">
+        <h4>Formulario Registro</h4>
+        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre">
+        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido">
+        <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo">
+        <input class="controls" type="password" name="correo" id="correo" placeholder="Ingrese su dirección">
+        <input class="botons" type="submit" value="Registrar">
+        <p><a href="#">¿Ya tengo Cuenta?</a></p>
+      </section><br>
+    </body>
+
+    <style>
+
+        * {
+            font-family: 'calibri';
+             margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+body {
+  background-image: #dcdcdc;
+}
+.checked{
+    width: 400px;
+  background: black;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  text-align: center;
+}
+
+.form-register {
+  width: 400px;
+  background: black;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: white;
+  
+}
+
+.form-register h4 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.controls {
+  width: 100%;
+  background: #24303c;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid  #dcdcdc;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: white;
+}
+
+.form-register p {
+  height: 40px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 40px;
+}
+
+.form-register a {
+  color: white;
+  text-decoration: none;
+}
+
+.form-register a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+.form-register .botons {
+  width: 100%;
+  background: #1f53c5;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin: 16px 0;
+  font-size: 16px;
+}
+.menu{
+    text-align: center;
+	padding: 0;
+	background: black;
+	width: 100%;
+	margin: auto;
+}
+.menu, li, a{
+	text-decoration: none;
+	color: white;
+	padding: 20px;
+}
+    </style>
